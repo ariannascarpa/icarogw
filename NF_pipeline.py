@@ -13,19 +13,6 @@ import random
 
 import matplotlib.pyplot as plt
 
-plt.rcParams.update({'font.family': 'serif',
-    'font.serif': ['DejaVu Serif'],
-    'text.usetex': False,
-    'mathtext.fontset': 'dejavuserif',
-    'axes.labelcolor': 'black',
-    'xtick.color': 'black',
-    'ytick.color': 'black',
-    'text.color': 'black',
-    'axes.edgecolor': 'black',
-    'savefig.transparent': False,
-    'figure.facecolor': 'white',
-    'axes.facecolor': 'white'})
-
 
 class one_catalog_wrapper(object):
     """
